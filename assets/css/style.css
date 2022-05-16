@@ -76,14 +76,82 @@ button{
 button:hover{
     background-color: #25c776;
 }
-p{
+.zero__paragraph{
     font-size: 16px;
     background-color: #fff;
     padding: 39px 0 42px 0;
     color: #BAC1C7;
     text-align: center;
 }
-
+.courseone{
+    padding: 30px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(19 15 235 / 10%) 1px 2px 20px;
+    width: 363px;
+    margin-right: 30px;
+}
+.coursetwo{
+    padding: 30px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(19 15 235 / 10%) 1px 2px 20px;
+    width: 363px;
+    margin-right: 30px;
+}
+.coursethree{
+    padding: 30px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(19 15 235 / 10%) 1px 2px 20px;
+    width: 363px;
+}
+.brittney__postma{
+    padding: 120px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.course__paragraph{
+    font-family: Barlow, sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    color: rgb(0, 0, 0);
+    width: 102%;
+    font-family: Barlow, sans-serif;
+    margin-top: 20px;
+}
+.brittneypostma__heading{
+    font-size: 22px;
+    color: #000000;
+    font-weight: 600;
+}
+.line__div{
+    height: 3px;
+    width: 25px;
+    border-radius: 10px;
+    margin: 92px 0px 25px;
+    background-color: rgb(76, 15, 251);
+}
+.line__divone{
+    height: 3px;
+    width: 25px;
+    border-radius: 10px;
+    margin: 161px 0px 25px;
+    background-color: rgb(76, 15, 251);
+}
+.girl__image{
+    border-radius: 110px;
+    width: 100px;
+    height: 100px;
+    margin-top: -76px;
+}
+.unknown__image{
+    border-radius: 110px;
+    width: 131px;
+    height: 129px;
+    margin-top: -93px;
+}
 
 
 
@@ -122,10 +190,32 @@ p{
     h1{
         margin: -14px 21px 33px 0;
     }
-    p{
+    .zero__paragraph{
         margin-left: 490px;
         width: 100%;
         margin-top: 19rem;
         font-size: 16px;
+    }
+    .courseone{
+        width: 100%;
+    }
+    .coursetwo{
+        width: 28%;
+        padding: 0 251px 10px 31px;
+    }
+    .brittney__postma{
+        display: flex;
+        flex-direction: row;
+    }
+    .course__paragraph{
+        width: 362%;
+    }
+    .girl__image{
+        width: 100px;
+        margin-top: -57px;
+    }
+    .brittneypostma__heading{
+        width: 166%;
+        margin-bottom: 20px;
     }
 }
